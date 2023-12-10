@@ -10,6 +10,14 @@ base {
 	archivesName = project.archives_base_name
 }
 
+loom {
+	mods {
+		"mod_template" {
+			sourceSet("main")
+		}
+	}
+}
+
 repositories {
 	maven { url 'https://jitpack.io' }
 }
